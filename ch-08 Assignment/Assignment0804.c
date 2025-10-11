@@ -9,18 +9,18 @@
 #include <stdio.h>
 #define SIZE 10
 
-int Assignment0802();
+int Assignment0804();
 void pointer_print(double* p);
 double Average(double* p);
 
 int main()
 {
-	Assignment0802();
+	Assignment0804();
 
 	return 0;
 }
 
-int Assignment0802()
+int Assignment0804()
 {
 
 	double number[SIZE] = { 0.10, 2.00, 3.40, 5.20, 4.50, 7.80, 9.70, 1.40, 6.60, 7.20 };
