@@ -98,5 +98,5 @@ void ReserveSeats(char A[], int A_size, int count, int* t)
 		printf("%d ", *t + 1);
 		(*t)++;
 	}
-	printf("좌석을 예매했습니다.\n");
+	printf("번 좌석을 예매했습니다.\n");
 }
