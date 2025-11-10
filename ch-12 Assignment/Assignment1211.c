@@ -1,3 +1,14 @@
+/*
+	학번: 202511224
+	이름: 양현인
+	프로그램 명: Assignment1211.c
+	날짜: 2025.11.09
+	프로그램 기능: CONTACT 구조체를 이용한 연락처 관리 프로그램에 텍스트 파일에서 연락처를 
+                   로딩한는 기능을 추가한다. 텍스트 파일에 정해진 형식으로 연락처를 저장하고 
+                   이 파일을 읽어서 CONTACT 구조체배열을 생성하는 프로그램.
+
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
