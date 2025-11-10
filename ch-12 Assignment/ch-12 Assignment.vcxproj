@@ -132,7 +132,9 @@
     <ClCompile Include="Assignment1204.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Assignment1211.c" />
+    <ClCompile Include="Assignment1211.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Assignment1212.c" />
     <ClCompile Include="Assignment1213.c" />
     <ClCompile Include="Assignment1214.c" />

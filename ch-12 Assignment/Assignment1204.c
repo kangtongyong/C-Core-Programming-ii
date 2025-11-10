@@ -14,8 +14,7 @@
 #define MAX_LEN  100
 
 
-typedef struct
-{
+typedef struct login{
     char ID[MAX_LEN];
     char PW[MAX_LEN];
 
@@ -64,21 +63,21 @@ void Assignment1204(void)
 
     while (1)
     {
-        char inputID[MAX_LEN];
-        char inputPW[MAX_LEN];
+        char inputid[MAX_LEN];
+        char inputpw[MAX_LEN];
         int findus = 0;
 
         printf("ID? ");
-        scanf("%s", inputID);
+        scanf("%s", inputid);
 
-        if (strcmp(inputID, ".") == 0)
+        if (strcmp(inputid, ".") == 0)
         {
             break;
         }
 
         for (findus = 0; findus < countuser; findus++)
         {
-            if (strcmp(users[findus].ID, inputID) == 0)
+            if (strcmp(users[findus].ID, inputid) == 0)
             {
                 break;
             }
@@ -92,9 +91,9 @@ void Assignment1204(void)
 		}
 
         printf("Password? ");
-        scanf("%s", inputPW);
+        scanf("%s", inputpw);
 
-        if (strcmp(users[findus].PW, inputPW) == 0)
+        if (strcmp(users[findus].PW, inputpw) == 0)
         {
             printf("로그인 성공\n");
         }
