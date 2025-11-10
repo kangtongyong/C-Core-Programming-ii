@@ -11,7 +11,7 @@
 #include <stdlib.h>
 
 
-//  입력 예 readme.txt
+//  입력 예 : readme.txt
 
 int Assignment1201(void);
 

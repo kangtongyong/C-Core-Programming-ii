@@ -13,7 +13,7 @@
 #define MAX_ALPHABET 26
 
 
-//  입력 예 readme.txt
+//  입력 예 : readme.txt
 
 int Assignment1203(void);
 

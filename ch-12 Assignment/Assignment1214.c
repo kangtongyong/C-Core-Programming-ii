@@ -11,6 +11,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// ÀÔ·Â ¿¹ : a.dat, b.dat, c.dat
+
 int Assignment1214(void);
 
 int main(void)

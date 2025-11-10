@@ -12,6 +12,9 @@
 #include <stdlib.h>
 #include <time.h>
 
+// ют╥б ©╧ : 200, a
+//          20, b
+
 int Assignment1213(void);
 
 int main(void)

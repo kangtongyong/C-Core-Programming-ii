@@ -15,7 +15,7 @@
 #include <string.h>
 #define MAX_CONTACT 100
 
-//  입력 예 mycontact.txt
+//  입력 예 : mycontact.txt
 
 typedef struct contact {
 	char name[MAX_CONTACT];

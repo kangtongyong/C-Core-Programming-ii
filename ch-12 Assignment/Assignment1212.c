@@ -12,6 +12,8 @@
 #include <string.h>
 #define MAX_CONTACT 100
 
+//  ÀÔ·Â ¿¹ : contacts.txt
+
 typedef struct contact {
     char name[MAX_CONTACT];
     char phone[MAX_CONTACT];
