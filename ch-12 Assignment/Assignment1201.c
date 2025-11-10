@@ -10,9 +10,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 //  입력 예 readme.txt
 
 int Assignment1201(void);
+
 
 int main()
 {
@@ -24,9 +26,9 @@ int main()
 int Assignment1201(void)
 {
     FILE* file;
+
     char filename[100];
     char line[200];
-    int line_index = 0;
 
     printf("파일명? ");
     scanf("%s", filename);
@@ -39,6 +41,8 @@ int Assignment1201(void)
         printf("없는 파일입니다.\n");
         return -1;
     }
+
+    int line_index = 0;
 
     while (1)
     {
